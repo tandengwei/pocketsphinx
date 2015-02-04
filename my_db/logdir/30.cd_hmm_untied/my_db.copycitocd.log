@@ -1,0 +1,126 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/local/libexec/sphinxtrain/init_mixw \
+	-src_moddeffn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.ci.mdef \
+	-src_ts2cbfn .cont. \
+	-src_mixwfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights \
+	-src_meanfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means \
+	-src_varfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances \
+	-src_tmatfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/transition_matrices \
+	-dest_moddeffn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.untied.mdef \
+	-dest_ts2cbfn .cont. \
+	-dest_mixwfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/mixture_weights \
+	-dest_meanfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/means \
+	-dest_varfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/variances \
+	-dest_tmatfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/transition_matrices \
+	-fullvar no 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dest_meanfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/means
+-dest_mixwfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/mixture_weights
+-dest_moddeffn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.untied.mdef
+-dest_tmatfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/transition_matrices
+-dest_ts2cbfn		.cont.
+-dest_varfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/variances
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-src_meanfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means
+-src_mixwfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights
+-src_moddeffn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.ci.mdef
+-src_tmatfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/transition_matrices
+-src_ts2cbfn		.cont.
+-src_varfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances
+
+INFO: main.c(262): Reading src /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 16 total models defined (16 base, 0 tri)
+INFO: model_def_io.c(575): 64 total states
+INFO: model_def_io.c(576): 48 total tied states
+INFO: model_def_io.c(577): 48 total tied CI states
+INFO: model_def_io.c(578): 16 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(279): Generating continous ts2cb mapping
+INFO: main.c(300): Reading src /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights
+INFO: s3mixw_io.c(116): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights [48x1x1 array]
+INFO: main.c(309): Reading src /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/transition_matrices
+INFO: s3tmat_io.c(115): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/transition_matrices [16x3x4 array]
+INFO: main.c(319): Reading src /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means [48x1x1 array]
+INFO: main.c(343): Reading src /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances [48x1x1 array]
+INFO: main.c(391): Reading dest /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.untied.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 35 total models defined (16 base, 19 tri)
+INFO: model_def_io.c(575): 140 total states
+INFO: model_def_io.c(576): 105 total tied states
+INFO: model_def_io.c(577): 48 total tied CI states
+INFO: model_def_io.c(578): 16 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(408): Generating continous ts2cb mapping
+INFO: main.c(432): Calculating initial model parameters
+INFO: main.c(437): Alloc 16x3x4 dest tmat
+INFO: main.c(450): Alloc 105x1x1 dest mixw
+INFO: main.c(463): Alloc 105x1x1 dest mean and var
+         H <- H         : [tm     0 +=     0]
+[mx     0(0) +=     0] [mg     0(0) <-     0] [mx     1(1) +=     1] [mg     1(1) <-     1] [mx     2(2) +=     2] [mg     2(2) <-     2] 
+       IAN <- IAN       : [tm     1 +=     1]
+[mx     3(0) +=     3] [mg     3(0) <-     3] [mx     4(1) +=     4] [mg     4(1) <-     4] [mx     5(2) +=     5] [mg     5(2) <-     5] 
+        IB <- IB        : [tm     2 +=     2]
+[mx     6(0) +=     6] [mg     6(0) <-     6] [mx     7(1) +=     7] [mg     7(1) <-     7] [mx     8(2) +=     8] [mg     8(2) <-     8] 
+        IN <- IN        : [tm     3 +=     3]
+[mx     9(0) +=     9] [mg     9(0) <-     9] [mx    10(1) +=    10] [mg    10(1) <-    10] [mx    11(2) +=    11] [mg    11(2) <-    11] 
+       ING <- ING       : [tm     4 +=     4]
+[mx    12(0) +=    12] [mg    12(0) <-    12] [mx    13(1) +=    13] [mg    13(1) <-    13] [mx    14(2) +=    14] [mg    14(2) <-    14] 
+         J <- J         : [tm     5 +=     5]
+[mx    15(0) +=    15] [mg    15(0) <-    15] [mx    16(1) +=    16] [mg    16(1) <-    16] [mx    17(2) +=    17] [mg    17(2) <-    17] 
+        OU <- OU        : [tm     6 +=     6]
+[mx    18(0) +=    18] [mg    18(0) <-    18] [mx    19(1) +=    19] [mg    19(1) <-    19] [mx    20(2) +=    20] [mg    20(2) <-    20] 
+         Q <- Q         : [tm     7 +=     7]
+[mx    21(0) +=    21] [mg    21(0) <-    21] [mx    22(1) +=    22] [mg    22(1) <-    22] [mx    23(2) +=    23] [mg    23(2) <-    23] 
+       SIL <- SIL       : [tm     8 +=     8]
+[mx    24(0) +=    24] [mg    24(0) <-    24] [mx    25(1) +=    25] [mg    25(1) <-    25] [mx    26(2) +=    26] [mg    26(2) <-    26] 
+         T <- T         : [tm     9 +=     9]
+[mx    27(0) +=    27] [mg    27(0) <-    27] [mx    28(1) +=    28] [mg    28(1) <-    28] [mx    29(2) +=    29] [mg    29(2) <-    29] 
+       UAN <- UAN       : [tm    10 +=    10]
+[mx    30(0) +=    30] [mg    30(0) <-    30] [mx    31(1) +=    31] [mg    31(1) <-    31] [mx    32(2) +=    32] [mg    32(2) <-    32] 
+        UI <- UI        : [tm    11 +=    11]
+[mx    33(0) +=    33] [mg    33(0) <-    33] [mx    34(1) +=    34] [mg    34(1) <-    34] [mx    35(2) +=    35] [mg    35(2) <-    35] 
+        UO <- UO        : [tm    12 +=    12]
+[mx    36(0) +=    36] [mg    36(0) <-    36] [mx    37(1) +=    37] [mg    37(1) <-    37] [mx    38(2) +=    38] [mg    38(2) <-    38] 
+         Y <- Y         : [tm    13 +=    13]
+[mx    39(0) +=    39] [mg    39(0) <-    39] [mx    40(1) +=    40] [mg    40(1) <-    40] [mx    41(2) +=    41] [mg    41(2) <-    41] 
+         Z <- Z         : [tm    14 +=    14]
+[mx    42(0) +=    42] [mg    42(0) <-    42] [mx    43(1) +=    43] [mg    43(1) <-    43] [mx    44(2) +=    44] [mg    44(2) <-    44] 
+        ZH <- ZH        : [tm    15 +=    15]
+[mx    45(0) +=    45] [mg    45(0) <-    45] [mx    46(1) +=    46] [mg    46(1) <-    46] [mx    47(2) +=    47] [mg    47(2) <-    47] 
+H SIL OU b <- H         : [mx    48(0) +=     0] [mg    48(0) <-     0] [mx    49(1) +=     1] [mg    49(1) <-     1] [mx    50(2) +=     2] [mg    50(2) <-     2] 
+ IAN Q J i <- IAN       : [mx    51(0) +=     3] [mg    51(0) <-     3] [mx    52(1) +=     4] [mg    52(1) <-     4] [mx    53(2) +=     5] [mg    53(2) <-     5] 
+IB ZH SIL e <- IB        : [mx    54(0) +=     6] [mg    54(0) <-     6] [mx    55(1) +=     7] [mg    55(1) <-     7] [mx    56(2) +=     8] [mg    56(2) <-     8] 
+IN J SIL e <- IN        : [mx    57(0) +=     9] [mg    57(0) <-     9] [mx    58(1) +=    10] [mg    58(1) <-    10] [mx    59(2) +=    11] [mg    59(2) <-    11] 
+ING T ZH i <- ING       : [mx    60(0) +=    12] [mg    60(0) <-    12] [mx    61(1) +=    13] [mg    61(1) <-    13] [mx    62(2) +=    14] [mg    62(2) <-    14] 
+J IAN IN i <- J         : [mx    63(0) +=    15] [mg    63(0) <-    15] [mx    64(1) +=    16] [mg    64(1) <-    16] [mx    65(2) +=    17] [mg    65(2) <-    17] 
+  OU H T i <- OU        : [mx    66(0) +=    18] [mg    66(0) <-    18] [mx    67(1) +=    19] [mg    67(1) <-    19] [mx    68(2) +=    20] [mg    68(2) <-    20] 
+ OU Y ZH i <- OU        : [mx    69(0) +=    18] [mg    69(0) <-    18] [mx    70(1) +=    19] [mg    70(1) <-    19] [mx    71(2) +=    20] [mg    71(2) <-    20] 
+Q SIL IAN b <- Q         : [mx    72(0) +=    21] [mg    72(0) <-    21] [mx    73(1) +=    22] [mg    73(1) <-    22] [mx    74(2) +=    23] [mg    74(2) <-    23] 
+ T OU UI i <- T         : [mx    75(0) +=    27] [mg    75(0) <-    27] [mx    76(1) +=    28] [mg    76(1) <-    28] [mx    77(2) +=    29] [mg    77(2) <-    29] 
+T SIL ING b <- T         : [mx    78(0) +=    27] [mg    78(0) <-    27] [mx    79(1) +=    28] [mg    79(1) <-    28] [mx    80(2) +=    29] [mg    80(2) <-    29] 
+UAN ZH SIL e <- UAN       : [mx    81(0) +=    30] [mg    81(0) <-    30] [mx    82(1) +=    31] [mg    82(1) <-    31] [mx    83(2) +=    32] [mg    83(2) <-    32] 
+UI T SIL e <- UI        : [mx    84(0) +=    33] [mg    84(0) <-    33] [mx    85(1) +=    34] [mg    85(1) <-    34] [mx    86(2) +=    35] [mg    86(2) <-    35] 
+ UO Z ZH i <- UO        : [mx    87(0) +=    36] [mg    87(0) <-    36] [mx    88(1) +=    37] [mg    88(1) <-    37] [mx    89(2) +=    38] [mg    89(2) <-    38] 
+Y SIL OU b <- Y         : [mx    90(0) +=    39] [mg    90(0) <-    39] [mx    91(1) +=    40] [mg    91(1) <-    40] [mx    92(2) +=    41] [mg    92(2) <-    41] 
+Z SIL UO b <- Z         : [mx    93(0) +=    42] [mg    93(0) <-    42] [mx    94(1) +=    43] [mg    94(1) <-    43] [mx    95(2) +=    44] [mg    95(2) <-    44] 
+ZH ING IB i <- ZH        : [mx    96(0) +=    45] [mg    96(0) <-    45] [mx    97(1) +=    46] [mg    97(1) <-    46] [mx    98(2) +=    47] [mg    98(2) <-    47] 
+ZH OU UAN i <- ZH        : [mx    99(0) +=    45] [mg    99(0) <-    45] [mx   100(1) +=    46] [mg   100(1) <-    46] [mx   101(2) +=    47] [mg   101(2) <-    47] 
+ZH UO UAN i <- ZH        : INFO: main.c(529): Writing dest /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/transition_matrices
+INFO: s3tmat_io.c(174): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/transition_matrices [16x3x4 array]
+INFO: main.c(540): Writing dest /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/mixture_weights
+INFO: s3mixw_io.c(232): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/mixture_weights [105x1x1 array]
+INFO: main.c(549): Writing dest /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/means
+INFO: s3gau_io.c(226): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/means [105x1x1 array]
+INFO: main.c(561): Writing dest /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/variances
+INFO: s3gau_io.c(226): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/variances [105x1x1 array]
+[mx   102(0) +=    45] [mg   102(0) <-    45] [mx   103(1) +=    46] [mg   103(1) <-    46] [mx   104(2) +=    47] [mg   104(2) <-    47] 
+Wed Feb  4 00:35:25 2015

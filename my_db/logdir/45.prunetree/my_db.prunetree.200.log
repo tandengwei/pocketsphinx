@@ -1,0 +1,126 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/local/libexec/sphinxtrain/prunetree \
+	-itreedir /home/tandengwei/Desktop/pocketsphinx/my_db/trees/my_db.unpruned \
+	-nseno 200 \
+	-otreedir /home/tandengwei/Desktop/pocketsphinx/my_db/trees/my_db.200 \
+	-moddeffn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.alltriphones.mdef \
+	-psetfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions \
+	-minocc 0 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-example	no	no
+-help		no	no
+-itreedir		/home/tandengwei/Desktop/pocketsphinx/my_db/trees/my_db.unpruned
+-minocc		0.0	0.000000e+00
+-moddeffn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.alltriphones.mdef
+-nseno			200
+-otreedir		/home/tandengwei/Desktop/pocketsphinx/my_db/trees/my_db.200
+-psetfn			/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions
+
+INFO: main.c(76): Reading: /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.alltriphones.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 75 total models defined (16 base, 59 tri)
+INFO: model_def_io.c(575): 300 total states
+INFO: model_def_io.c(576): 225 total tied states
+INFO: model_def_io.c(577): 48 total tied CI states
+INFO: model_def_io.c(578): 16 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(82): Reading: /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions
+INFO: main.c(183): H-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): H-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): H-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): IAN-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): IAN-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): IAN-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): IB-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): IB-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): IB-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): IN-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): IN-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): IN-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): ING-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): ING-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): ING-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): J-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): J-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): J-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): OU-0	2 [0 < 0.000000e+00]
+INFO: main.c(183): OU-1	2 [0 < 0.000000e+00]
+INFO: main.c(183): OU-2	2 [0 < 0.000000e+00]
+INFO: main.c(183): Q-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): Q-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): Q-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): T-0	2 [0 < 0.000000e+00]
+INFO: main.c(183): T-1	2 [0 < 0.000000e+00]
+INFO: main.c(183): T-2	2 [0 < 0.000000e+00]
+INFO: main.c(183): UAN-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): UAN-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): UAN-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): UI-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): UI-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): UI-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): UO-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): UO-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): UO-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): Y-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): Y-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): Y-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): Z-0	1 [0 < 0.000000e+00]
+INFO: main.c(183): Z-1	1 [0 < 0.000000e+00]
+INFO: main.c(183): Z-2	1 [0 < 0.000000e+00]
+INFO: main.c(183): ZH-0	3 [0 < 0.000000e+00]
+INFO: main.c(183): ZH-1	3 [0 < 0.000000e+00]
+INFO: main.c(183): ZH-2	3 [0 < 0.000000e+00]
+INFO: main.c(270): Prior to pruning n_seno= 57
+WARNING: "main.c", line 274: n_seno_wanted= 200, but only 57 defined by trees
+INFO: main.c(278): n_twig= 9
+INFO: main.c(386): H-0	1
+INFO: main.c(386): H-1	1
+INFO: main.c(386): H-2	1
+INFO: main.c(386): IAN-0	1
+INFO: main.c(386): IAN-1	1
+INFO: main.c(386): IAN-2	1
+INFO: main.c(386): IB-0	1
+INFO: main.c(386): IB-1	1
+INFO: main.c(386): IB-2	1
+INFO: main.c(386): IN-0	1
+INFO: main.c(386): IN-1	1
+INFO: main.c(386): IN-2	1
+INFO: main.c(386): ING-0	1
+INFO: main.c(386): ING-1	1
+INFO: main.c(386): ING-2	1
+INFO: main.c(386): J-0	1
+INFO: main.c(386): J-1	1
+INFO: main.c(386): J-2	1
+INFO: main.c(386): OU-0	3
+INFO: main.c(386): OU-1	3
+INFO: main.c(386): OU-2	3
+INFO: main.c(386): Q-0	1
+INFO: main.c(386): Q-1	1
+INFO: main.c(386): Q-2	1
+INFO: main.c(386): T-0	3
+INFO: main.c(386): T-1	3
+INFO: main.c(386): T-2	3
+INFO: main.c(386): UAN-0	1
+INFO: main.c(386): UAN-1	1
+INFO: main.c(386): UAN-2	1
+INFO: main.c(386): UI-0	1
+INFO: main.c(386): UI-1	1
+INFO: main.c(386): UI-2	1
+INFO: main.c(386): UO-0	1
+INFO: main.c(386): UO-1	1
+INFO: main.c(386): UO-2	1
+INFO: main.c(386): Y-0	1
+INFO: main.c(386): Y-1	1
+INFO: main.c(386): Y-2	1
+INFO: main.c(386): Z-0	1
+INFO: main.c(386): Z-1	1
+INFO: main.c(386): Z-2	1
+INFO: main.c(386): ZH-0	5
+INFO: main.c(386): ZH-1	5
+INFO: main.c(386): ZH-2	5
+!!!!!!!!Allocated 53 lines
+Wed Feb  4 00:35:29 2015

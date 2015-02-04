@@ -1,0 +1,195 @@
+        INFO: main.c(229): Compiled on Feb  3 2015 at 23:14:31
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/local/libexec/sphinxtrain/bw \
+	-moddeffn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.ci.mdef \
+	-ts2cbfn .cont. \
+	-mixwfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights \
+	-mwfloor 1e-08 \
+	-tmatfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/transition_matrices \
+	-meanfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means \
+	-varfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances \
+	-dictfn /home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db.dic \
+	-fdictfn /home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db.filler \
+	-ctlfn /home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db_train.fileids \
+	-part 1 \
+	-npart 1 \
+	-cepdir /home/tandengwei/Desktop/pocketsphinx/my_db/feat \
+	-cepext mfc \
+	-lsnfn /home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db_train.transcription \
+	-accumdir /home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1 \
+	-varfloor 0.0001 \
+	-topn 1 \
+	-abeam 1e-90 \
+	-bbeam 1e-10 \
+	-agc none \
+	-cmn current \
+	-varnorm no \
+	-meanreest yes \
+	-varreest yes \
+	-2passvar yes \
+	-tmatreest yes \
+	-fullvar no \
+	-diagfull no \
+	-feat 1s_c_d_dd \
+	-ceplen 13 \
+	-timing no 
+
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-2passvar		no		yes
+-abeam			1e-100		1.000000e-90
+-accumdir				/home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1
+-agc			none		none
+-agcthresh		2.0		2.000000e+00
+-bbeam			1e-100		1.000000e-10
+-cb2mllrfn		.1cls.		.1cls.
+-cepdir					/home/tandengwei/Desktop/pocketsphinx/my_db/feat
+-cepext			mfc		mfc
+-ceplen			13		13
+-ckptintv				0
+-cmn			current		current
+-cmninit		8.0		8.0
+-ctlfn					/home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db_train.fileids
+-diagfull		no		no
+-dictfn					/home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db.dic
+-example		no		no
+-fdictfn				/home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db.filler
+-feat			1s_c_d_dd	1s_c_d_dd
+-fullsuffixmatch	no		no
+-fullvar		no		no
+-help			no		no
+-hmmdir					
+-latdir					
+-latext					
+-lda					
+-ldaaccum		no		no
+-ldadim			0		0
+-lsnfn					/home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db_train.transcription
+-lw			11.5		1.150000e+01
+-maxuttlen		0		0
+-meanfn					/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means
+-meanreest		yes		yes
+-mixwfn					/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights
+-mixwreest		yes		yes
+-mllrmat				
+-mmie			no		no
+-mmie_type		rand		rand
+-moddeffn				/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.ci.mdef
+-mwfloor		0.00001		1.000000e-08
+-npart					1
+-nskip					0
+-outphsegdir				
+-outputfullpath		no		no
+-part					1
+-pdumpdir				
+-phsegdir				
+-phsegext		phseg		phseg
+-runlen			-1		-1
+-sentdir				
+-sentext		sent		sent
+-spthresh		0.0		0.000000e+00
+-svspec					
+-timing			yes		no
+-tmatfn					/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/transition_matrices
+-tmatreest		yes		yes
+-topn			4		1
+-tpfloor		0.0001		1.000000e-04
+-ts2cbfn				.cont.
+-varfloor		0.00001		1.000000e-04
+-varfn					/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances
+-varnorm		no		no
+-varreest		yes		yes
+-viterbi		no		no
+
+INFO: feat.c(713): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(142): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: main.c(318): Reading /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 16 total models defined (16 base, 0 tri)
+INFO: model_def_io.c(575): 64 total states
+INFO: model_def_io.c(576): 48 total tied states
+INFO: model_def_io.c(577): 48 total tied CI states
+INFO: model_def_io.c(578): 16 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3mixw_io.c(116): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights [48x1x1 array]
+INFO: s3tmat_io.c(115): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/transition_matrices [16x3x4 array]
+INFO: mod_inv.c(300): inserting tprob floor 1.000000e-04 and renormalizing
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means [48x1x1 array]
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances [48x1x1 array]
+INFO: gauden.c(183): 48 total mgau
+INFO: gauden.c(157): 1 feature streams (|0|=39 )
+INFO: gauden.c(194): 1 total densities
+INFO: gauden.c(97): min_var=1.000000e-04
+INFO: gauden.c(172): compute 1 densities/frame
+INFO: main.c(430): Will reestimate mixing weights.
+INFO: main.c(432): Will reestimate means.
+INFO: main.c(434): Will reestimate variances.
+INFO: main.c(442): Will reestimate transition matrices
+INFO: main.c(455): Reading main lexicon: /home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db.dic
+INFO: lexicon.c(220): 5 entries added from /home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db.dic
+INFO: main.c(465): Reading filler lexicon: /home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db.filler
+INFO: lexicon.c(220): 3 entries added from /home/tandengwei/Desktop/pocketsphinx/my_db/etc/my_db.filler
+INFO: corpus.c(1086): Will process all remaining utts starting at 0
+INFO: main.c(665): Reestimation: Baum-Welch
+INFO: cmn.c(175): CMN: 12.42 -0.34 -0.29 -0.13 -0.16 -0.17  0.01 -0.13 -0.16 -0.14 -0.13 -0.14 -0.02 
+column defns
+	<seq>
+	<id>
+	<n_frame_in>
+	<n_frame_del>
+	<n_state_shmm>
+	<avg_states_alpha>
+	<avg_states_beta>
+	<avg_states_reest>
+	<avg_posterior_prune>
+	<frame_log_lik>
+	<utt_log_lik>
+	... timing info ... 
+utt>     0                      1_11  625    0INFO: cvt2triphone.c(199): no multiphones defined, no conversion done
+    24 4  1 1 6.531622e-13 1.997882e+01 1.248676e+04
+INFO: cmn.c(175): CMN: 12.68 -0.38 -0.22 -0.05 -0.20 -0.25 -0.03 -0.03 -0.11 -0.13 -0.16 -0.14 -0.08 
+utt>     1                      1_22  573    0    24 11  1 1 1.112941e-12 2.993939e+01 1.715527e+04
+INFO: cmn.c(175): CMN: 12.81 -0.42 -0.21 -0.05 -0.24 -0.27 -0.04 -0.04 -0.12 -0.12 -0.15 -0.13 -0.08 
+utt>     2                      1_33  599    0    24 8  1 1 2.866589e-13 3.021941e+01 1.810143e+04
+INFO: cmn.c(175): CMN: 12.58 -0.38 -0.18 -0.10 -0.24 -0.26 -0.03 -0.02 -0.11 -0.15 -0.13 -0.14 -0.10 
+utt>     3                      1_44  825    0    24 8  1 1 6.475802e-13 2.726490e+01 2.249354e+04
+INFO: cmn.c(175): CMN: 12.50 -0.30 -0.31 -0.17 -0.19 -0.13 -0.03 -0.10 -0.16 -0.14 -0.17 -0.16 -0.01 
+utt>     4                      2_11  568    0    24 12  1 1 4.525639e-13 2.973265e+01 1.688814e+04
+INFO: cmn.c(175): CMN: 12.85 -0.29 -0.25 -0.18 -0.20 -0.22 -0.08 -0.04 -0.09 -0.16 -0.14 -0.16 -0.12 
+utt>     5                      2_22  493    0    24 4  1 1 3.621204e-13 1.773094e+01 8.741351e+03
+INFO: cmn.c(175): CMN: 12.74 -0.26 -0.19 -0.12 -0.25 -0.25 -0.06 -0.06 -0.10 -0.14 -0.16 -0.18 -0.10 
+utt>     6                      2_33  570    0    24 10  1 1 8.320421e-13 3.065525e+01 1.747349e+04
+INFO: cmn.c(175): CMN: 12.86 -0.26 -0.19 -0.13 -0.27 -0.25 -0.04 -0.07 -0.10 -0.13 -0.16 -0.17 -0.10 
+utt>     7                      2_44  570    0    24 9  1 1 2.685720e-13 2.861885e+01 1.631275e+04
+INFO: cmn.c(175): CMN: 12.70 -0.32 -0.29 -0.17 -0.21 -0.14 -0.00 -0.11 -0.15 -0.13 -0.18 -0.17 -0.02 
+utt>     8                      3_11  592    0    24 4  1 1 6.144460e-13 1.930940e+01 1.143117e+04
+INFO: cmn.c(175): CMN: 12.57 -0.26 -0.19 -0.15 -0.27 -0.23 -0.02 -0.06 -0.09 -0.12 -0.16 -0.17 -0.09 
+utt>     9                      3_22  575    0    24 3  1 1 7.105781e-13 1.768363e+01 1.016809e+04
+INFO: cmn.c(175): CMN: 12.70 -0.35 -0.20 -0.16 -0.26 -0.23 -0.01 -0.08 -0.09 -0.11 -0.16 -0.16 -0.07 
+utt>    10                      3_33  628    0    24 4  1 1 2.335681e-13 2.196917e+01 1.379664e+04
+INFO: cmn.c(175): CMN: 12.93 -0.28 -0.20 -0.10 -0.29 -0.25 -0.04 -0.09 -0.11 -0.11 -0.16 -0.20 -0.08 
+utt>    11                      3_44  501    0    24 11  1 1 6.683753e-13 2.616694e+01 1.310964e+04
+INFO: cmn.c(175): CMN: 12.63 -0.30 -0.29 -0.18 -0.21 -0.14 -0.02 -0.11 -0.14 -0.15 -0.18 -0.16 -0.01 
+utt>    12                      4_11  592    0    24 12  1 1 7.297535e-13 2.797880e+01 1.656345e+04
+INFO: cmn.c(175): CMN: 12.80 -0.29 -0.26 -0.08 -0.28 -0.24 -0.02 -0.08 -0.14 -0.11 -0.14 -0.18 -0.09 
+utt>    13                      4_22  501    0    24 5  1 1 5.924237e-13 1.695961e+01 8.496764e+03
+INFO: cmn.c(175): CMN: 12.22 -0.26 -0.20 -0.15 -0.29 -0.22 -0.01 -0.07 -0.10 -0.11 -0.16 -0.14 -0.08 
+utt>    14                      4_33  517    0    24 11  1 1 5.017634e-13 3.309706e+01 1.711118e+04
+INFO: cmn.c(175): CMN: 12.42 -0.25 -0.19 -0.13 -0.26 -0.21 -0.04 -0.05 -0.12 -0.12 -0.15 -0.16 -0.11 
+utt>    15                      4_44  546    0    24 8  1 1 1.176117e-12 1.869688e+01 1.020849e+04
+INFO: cmn.c(175): CMN: 12.55 -0.34 -0.28 -0.15 -0.18 -0.13 -0.02 -0.12 -0.15 -0.14 -0.19 -0.18 -0.01 
+utt>    16                      5_11  592    0    24 9  1 1 8.479160e-14 2.384948e+01 1.411889e+04
+INFO: cmn.c(175): CMN: 12.48 -0.30 -0.17 -0.07 -0.20 -0.20 -0.03 -0.10 -0.14 -0.12 -0.17 -0.15 -0.10 
+utt>    17                      5_22  549    0    24 8  1 1 2.792631e-13 3.161108e+01 1.735448e+04
+INFO: cmn.c(175): CMN: 12.79 -0.33 -0.19 -0.02 -0.21 -0.24 -0.03 -0.10 -0.14 -0.15 -0.15 -0.18 -0.09 
+utt>    18                      5_33  565    0    24 5  1 1 4.598941e-13 1.502651e+01 8.489977e+03
+INFO: cmn.c(175): CMN: 12.32 -0.25 -0.19 -0.06 -0.21 -0.21 -0.05 -0.13 -0.08 -0.11 -0.18 -0.20 -0.05 
+utt>    19                      5_44  537    0    24 6  1 1 1.078179e-12 2.021074e+01 1.085317e+04
+overall> stats 11518 (-0) 2.442739e+01 2.813547e+05
+
+INFO: s3mixw_io.c(232): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1/mixw_counts [48x1x1 array]
+INFO: s3tmat_io.c(174): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1/tmat_counts [16x3x4 array]
+INFO: s3gau_io.c(478): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1/gauden_counts with means with vars (2pass) [48x1x1 vector arrays]
+INFO: main.c(1014): Counts saved to /home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1
+Wed Feb  4 00:35:23 2015

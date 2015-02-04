@@ -1,0 +1,141 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/local/libexec/sphinxtrain/inc_comp \
+	-ninc 4 \
+	-dcountfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights \
+	-inmixwfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights \
+	-outmixwfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/mixture_weights \
+	-inmeanfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/means \
+	-outmeanfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/means \
+	-invarfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/variances \
+	-outvarfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/variances \
+	-fullvar no 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dcountfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/means
+-inmixwfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights
+-invarfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/variances
+-ninc		1	4
+-outmeanfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/means
+-outmixwfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/mixture_weights
+-outvarfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/variances
+
+INFO: main.c(85): Reading mixing weight file /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights.
+INFO: s3mixw_io.c(116): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights [105x1x4 array]
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/means [105x1x4 array]
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/variances [105x1x4 array]
+INFO: s3gau_io.c(550): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights [105x1x4 array]
+INFO: main.c(151): output n_density == 8
+0:0(7.00e+00)1(6.97e+00)2(6.00e+00)3(5.00e+00)
+1:1(3.55e+01)0(3.22e+01)2(3.01e+01)3(2.42e+01)
+2:2(2.89e+01)1(2.60e+01)0(2.02e+01)3(1.70e+01)
+3:2(2.81e+01)0(2.50e+01)1(1.59e+01)3(1.40e+01)
+4:0(1.00e+01)1(7.00e+00)2(7.00e+00)3(6.00e+00)
+5:0(2.00e+00)3(2.00e+00)1(1.00e+00)2(1.00e+00)
+6:0(2.00e+00)1(2.00e+00)2(2.00e+00)3(2.00e+00)
+7:2(3.02e+01)1(2.59e+01)3(2.15e+01)0(1.77e+01)
+8:1(1.99e+02)2(1.74e+02)0(1.52e+02)3(1.50e+02)
+9:1(1.90e+01)3(1.00e+01)0(8.00e+00)2(7.00e+00)
+10:1(1.30e+01)3(1.29e+01)2(7.97e+00)0(7.07e+00)
+11:1(2.82e+02)2(2.73e+02)0(2.26e+02)3(2.20e+02)
+12:2(6.70e+01)0(5.07e+01)1(2.45e+01)3(2.18e+01)
+13:1(3.00e+00)0(1.00e+00)2(1.00e+00)3(1.00e+00)
+14:2(2.00e+00)0(1.00e+00)1(1.00e+00)3(1.00e+00)
+15:0(1.00e+01)2(8.00e+00)1(6.00e+00)3(4.00e+00)
+16:2(2.00e+00)0(1.00e+00)1(1.00e+00)3(1.00e+00)
+17:0(4.00e+00)1(3.00e+00)2(2.00e+00)3(2.00e+00)
+18:2(4.73e+01)3(4.48e+01)0(4.12e+01)1(3.77e+01)
+19:0(1.48e+01)2(1.43e+01)1(1.10e+01)3(1.09e+01)
+20:2(2.16e+01)3(1.95e+01)1(1.15e+01)0(9.40e+00)
+21:2(5.00e+00)0(5.00e+00)1(5.00e+00)3(5.00e+00)
+22:1(3.00e+00)0(2.00e+00)2(2.00e+00)3(2.00e+00)
+23:2(7.74e+01)0(4.09e+01)1(3.71e+01)3(3.26e+01)
+24:2(9.16e+02)0(8.92e+02)3(9.64e+01)1(9.52e+01)
+25:2(1.34e+02)3(1.13e+02)0(9.49e+01)1(4.61e+01)
+26:2(2.05e+03)0(1.48e+03)1(4.58e+02)3(3.86e+02)
+27:0(6.00e+00)1(6.00e+00)2(5.00e+00)3(2.00e+00)
+28:2(4.00e+00)3(3.00e+00)0(2.00e+00)1(2.00e+00)
+29:2(7.00e+00)1(5.00e+00)0(4.00e+00)3(3.00e+00)
+30:2(5.90e+01)0(3.21e+01)1(2.36e+01)3(1.41e+01)
+31:2(2.49e+01)1(1.99e+01)0(1.17e+01)3(1.10e+01)
+32:1(2.55e+02)3(1.26e+02)0(1.06e+02)2(1.02e+02)
+33:2(4.00e+00)0(2.00e+00)1(2.00e+00)3(2.00e+00)
+34:3(9.99e+00)1(8.01e+00)0(8.00e+00)2(7.98e+00)
+35:1(1.97e+02)2(1.56e+02)3(1.44e+02)0(1.30e+02)
+36:1(2.00e+01)0(1.71e+01)2(1.69e+01)3(7.99e+00)
+37:1(7.00e+00)2(5.00e+00)0(4.00e+00)3(4.00e+00)
+38:2(3.00e+00)0(2.00e+00)1(2.00e+00)3(2.00e+00)
+39:1(1.60e+01)2(1.30e+01)3(9.98e+00)0(6.00e+00)
+40:0(2.00e+00)1(2.00e+00)2(2.00e+00)3(1.00e+00)
+41:1(4.00e+00)2(3.00e+00)3(3.00e+00)0(2.00e+00)
+42:2(2.00e+00)1(1.00e+00)0(5.00e-01)3(5.00e-01)
+43:0(1.00e+00)1(1.00e+00)2(1.00e+00)3(1.00e+00)
+44:2(5.08e+00)0(4.92e+00)1(3.00e+00)3(3.00e+00)
+45:1(6.00e+00)0(6.00e+00)3(4.00e+00)2(4.00e+00)
+46:2(1.69e+01)0(1.31e+01)3(1.30e+01)1(1.30e+01)
+47:1(1.66e+01)3(1.52e+01)2(1.21e+01)0(8.12e+00)
+48:0(7.00e+00)1(6.97e+00)2(6.00e+00)3(5.00e+00)
+49:1(3.55e+01)0(3.22e+01)2(3.01e+01)3(2.42e+01)
+50:2(2.89e+01)1(2.60e+01)0(2.02e+01)3(1.70e+01)
+51:2(2.81e+01)0(2.50e+01)1(1.59e+01)3(1.40e+01)
+52:0(1.00e+01)1(7.00e+00)2(7.00e+00)3(6.00e+00)
+53:0(2.00e+00)3(2.00e+00)1(1.00e+00)2(1.00e+00)
+54:0(2.00e+00)1(2.00e+00)2(2.00e+00)3(2.00e+00)
+55:2(3.02e+01)1(2.59e+01)3(2.15e+01)0(1.77e+01)
+56:1(1.99e+02)2(1.74e+02)0(1.52e+02)3(1.50e+02)
+57:1(1.90e+01)3(1.00e+01)0(8.00e+00)2(7.00e+00)
+58:1(1.30e+01)3(1.29e+01)2(7.97e+00)0(7.07e+00)
+59:1(2.82e+02)2(2.73e+02)0(2.26e+02)3(2.20e+02)
+60:2(6.70e+01)0(5.07e+01)1(2.45e+01)3(2.18e+01)
+61:1(3.00e+00)0(1.00e+00)2(1.00e+00)3(1.00e+00)
+62:2(2.00e+00)0(1.00e+00)1(1.00e+00)3(1.00e+00)
+63:0(1.00e+01)2(8.00e+00)1(6.00e+00)3(4.00e+00)
+64:2(2.00e+00)0(1.00e+00)1(1.00e+00)3(1.00e+00)
+65:0(4.00e+00)1(3.00e+00)2(2.00e+00)3(2.00e+00)
+66:1(3.70e+01)3(3.11e+01)2(2.89e+01)0(2.11e+01)
+67:2(1.80e+01)0(1.60e+01)3(1.00e+01)1(9.00e+00)
+68:0(3.00e+00)2(3.00e+00)1(2.00e+00)3(2.00e+00)
+69:0(1.40e+01)3(1.10e+01)2(1.00e+01)1(5.99e+00)
+70:1(2.00e+00)2(1.00e+00)0(5.00e-01)3(5.00e-01)
+71:2(2.32e+01)3(1.40e+01)1(1.20e+01)0(8.80e+00)
+72:2(5.00e+00)0(5.00e+00)1(5.00e+00)3(5.00e+00)
+73:1(3.00e+00)0(2.00e+00)2(2.00e+00)3(2.00e+00)
+74:2(7.74e+01)0(4.09e+01)1(3.71e+01)3(3.26e+01)
+75:0(4.00e+00)1(4.00e+00)2(4.00e+00)3(3.00e+00)
+76:0(1.00e+00)1(1.00e+00)2(1.00e+00)3(1.00e+00)
+77:1(2.00e+00)0(1.00e+00)2(1.00e+00)3(1.00e+00)
+78:0(2.00e+00)3(2.00e+00)1(1.00e+00)2(1.00e+00)
+79:2(4.00e+00)0(3.00e+00)1(2.00e+00)3(2.00e+00)
+80:2(3.00e+00)0(2.00e+00)3(2.00e+00)1(1.00e+00)
+81:2(5.90e+01)0(3.21e+01)1(2.36e+01)3(1.41e+01)
+82:2(2.49e+01)1(1.99e+01)0(1.17e+01)3(1.10e+01)
+83:1(2.55e+02)3(1.26e+02)0(1.06e+02)2(1.02e+02)
+84:2(4.00e+00)0(2.00e+00)1(2.00e+00)3(2.00e+00)
+85:3(9.99e+00)1(8.01e+00)0(8.00e+00)2(7.98e+00)
+86:1(1.97e+02)2(1.56e+02)3(1.44e+02)0(1.30e+02)
+87:1(2.00e+01)0(1.71e+01)2(1.69e+01)3(7.99e+00)
+88:1(7.00e+00)2(5.00e+00)0(4.00e+00)3(4.00e+00)
+89:2(3.00e+00)0(2.00e+00)1(2.00e+00)3(2.00e+00)
+90:1(1.60e+01)2(1.30e+01)3(9.98e+00)0(6.00e+00)
+91:0(2.00e+00)1(2.00e+00)2(2.00e+00)3(1.00e+00)
+92:1(4.00e+00)2(3.00e+00)3(3.00e+00)0(2.00e+00)
+93:2(2.00e+00)1(1.00e+00)0(5.00e-01)3(5.00e-01)
+94:0(1.00e+00)1(1.00e+00)2(1.00e+00)3(1.00e+00)
+95:2(5.08e+00)0(4.92e+00)1(3.00e+00)3(3.00e+00)
+96:2(3.00e+00)0(2.00e+00)1(1.00e+00)3(1.00e+00)
+97:2(2.00e+00)0(1.00e+00)1(1.00e+00)3(1.00e+00)
+98:0(3.00e+00)2(3.00e+00)1(1.00e+00)3(1.00e+00)
+99:0(1.00e+00)1(1.00e+00)2(1.00e+00)3(1.00e+00)
+100:0(2.00e+00)1(1.00e+00)2(1.00e+00)3(1.00e+00)
+101:1(1.20e+01)3(1.20e+01)2(1.19e+01)0(1.10e+01)
+102:0(5.00e+00)1(5.00e+00)2(5.00e+00)3(5.00e+00)
+103:1(6.00e+00)2(6.00e+00)3(5.00e+00)0(2.00e+00)
+104:0(4.00e+00)1(3.00e+00)2(3.00e+00)3(3.00e+00)INFO: s3mixw_io.c(232): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/mixture_weights [105x1x8 array]
+INFO: s3gau_io.c(226): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/means [105x1x8 array]
+INFO: s3gau_io.c(226): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/variances [105x1x8 array]
+
+Wed Feb  4 00:35:37 2015

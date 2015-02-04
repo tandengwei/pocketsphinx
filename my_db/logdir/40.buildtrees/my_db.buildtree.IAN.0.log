@@ -1,0 +1,71 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/local/libexec/sphinxtrain/bldtree \
+	-treefn /home/tandengwei/Desktop/pocketsphinx/my_db/trees/my_db.unpruned/IAN-0.dtree \
+	-moddeffn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.untied.mdef \
+	-mixwfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/mixture_weights \
+	-ts2cbfn .cont. \
+	-mwfloor 1e-08 \
+	-psetfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions \
+	-phone IAN \
+	-state 0 \
+	-stwt 1.0,0.05,0.0 \
+	-meanfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/means \
+	-varfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/variances \
+	-fullvar no \
+	-ssplitmin 1 \
+	-ssplitmax 7 \
+	-ssplitthr 0 \
+	-csplitmin 1 \
+	-csplitmax 2000 \
+	-csplitthr 0 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-cntthresh	0.00001	1.000000e-05
+-csplitmax	100	2000
+-csplitmin	1	1
+-csplitthr	8e-4	0.000000e+00
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-meanfn			/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/means
+-mixwfn			/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/mixture_weights
+-moddeffn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.untied.mdef
+-mwfloor	1e-4	1.000000e-08
+-phone			IAN
+-psetfn			/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions
+-ssplitmax	5	7
+-ssplitmin	1	1
+-ssplitthr	8e-4	0.000000e+00
+-state			0
+-stwt			1.0,0.05,0.0,
+-treefn			/home/tandengwei/Desktop/pocketsphinx/my_db/trees/my_db.unpruned/IAN-0.dtree
+-ts2cbfn	.semi.	.cont.
+-varfloor	0.00001	1.000000e-05
+-varfn			/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/variances
+
+INFO: main.c(223): Reading: /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.untied.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 35 total models defined (16 base, 19 tri)
+INFO: model_def_io.c(575): 140 total states
+INFO: model_def_io.c(576): 105 total tied states
+INFO: model_def_io.c(577): 48 total tied CI states
+INFO: model_def_io.c(578): 16 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(242): Building trees for [IAN Q J i] through [IAN Q J i]
+INFO: main.c(268): Covering states |[51 53]| == 3
+INFO: main.c(275): Reading: /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/mixture_weights
+INFO: s3mixw_io.c(172): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/mixture_weights [3x1x1 array]
+INFO: main.c(311): 1 of 1 models have observation count greater than 0.000010
+INFO: main.c(95): nrm stwt: 0.952 0.048 0.000 
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/means [105x1x1 array]
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_untied/variances [105x1x1 array]
+INFO: main.c(549): Reading: /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions
+INFO: main.c(587): 140 total simple questions (132 phone; 8 word bndry)
+INFO: main.c(589): 34 Left Only questions, and 30 Right Only questions
+INFO: dtree.c(1315): Comp split 0
+INFO: dtree.c(1324): stop. b_n->wt_ent_dec (0.000e+00) <= 0
+!!!!!!!!Allocated 53 lines
+Wed Feb  4 00:35:27 2015

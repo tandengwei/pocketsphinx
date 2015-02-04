@@ -1,0 +1,141 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/local/libexec/sphinxtrain/inc_comp \
+	-ninc 1 \
+	-dcountfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights \
+	-inmixwfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights \
+	-outmixwfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/mixture_weights \
+	-inmeanfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/means \
+	-outmeanfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/means \
+	-invarfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/variances \
+	-outvarfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/variances \
+	-fullvar no 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dcountfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/means
+-inmixwfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights
+-invarfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/variances
+-ninc		1	1
+-outmeanfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/means
+-outmixwfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/mixture_weights
+-outvarfn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/variances
+
+INFO: main.c(85): Reading mixing weight file /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights.
+INFO: s3mixw_io.c(116): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights [105x1x1 array]
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/means [105x1x1 array]
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/variances [105x1x1 array]
+INFO: s3gau_io.c(550): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_200/mixture_weights [105x1x1 array]
+INFO: main.c(151): output n_density == 2
+0:0(2.23e+01)
+1:0(1.19e+02)
+2:0(8.86e+01)
+3:0(8.00e+01)
+4:0(2.60e+01)
+5:0(6.00e+00)
+6:0(8.00e+00)
+7:0(9.38e+01)
+8:0(6.78e+02)
+9:0(4.22e+01)
+10:0(4.07e+01)
+11:0(1.00e+03)
+12:0(1.64e+02)
+13:0(6.00e+00)
+14:0(5.00e+00)
+15:0(2.72e+01)
+16:0(5.81e+00)
+17:0(1.10e+01)
+18:0(1.78e+02)
+19:0(5.05e+01)
+20:0(6.24e+01)
+21:0(1.51e+01)
+22:0(9.00e+00)
+23:0(1.95e+02)
+24:0(1.79e+03)
+25:0(8.39e+02)
+26:0(3.76e+03)
+27:0(1.55e+01)
+28:0(1.10e+01)
+29:0(1.90e+01)
+30:0(1.25e+02)
+31:0(6.54e+01)
+32:0(9.84e+02)
+33:0(1.00e+01)
+34:0(3.28e+01)
+35:0(6.32e+02)
+36:0(6.21e+01)
+37:0(1.99e+01)
+38:0(9.00e+00)
+39:0(3.91e+01)
+40:0(7.00e+00)
+41:0(1.20e+01)
+42:0(4.00e+00)
+43:0(4.00e+00)
+44:0(1.60e+01)
+45:0(2.00e+01)
+46:0(5.60e+01)
+47:0(5.05e+01)
+48:0(2.23e+01)
+49:0(1.19e+02)
+50:0(8.86e+01)
+51:0(8.00e+01)
+52:0(2.60e+01)
+53:0(6.00e+00)
+54:0(8.00e+00)
+55:0(9.38e+01)
+56:0(6.78e+02)
+57:0(4.22e+01)
+58:0(4.07e+01)
+59:0(1.00e+03)
+60:0(1.64e+02)
+61:0(6.00e+00)
+62:0(5.00e+00)
+63:0(2.72e+01)
+64:0(5.81e+00)
+65:0(1.10e+01)
+66:0(1.18e+02)
+67:0(5.95e+01)
+68:0(1.00e+01)
+69:0(4.05e+01)
+70:0(4.00e+00)
+71:0(5.84e+01)
+72:0(1.51e+01)
+73:0(9.00e+00)
+74:0(1.95e+02)
+75:0(1.15e+01)
+76:0(4.00e+00)
+77:0(5.00e+00)
+78:0(6.00e+00)
+79:0(1.10e+01)
+80:0(8.00e+00)
+81:0(1.25e+02)
+82:0(6.54e+01)
+83:0(9.84e+02)
+84:0(1.00e+01)
+85:0(3.28e+01)
+86:0(6.32e+02)
+87:0(6.21e+01)
+88:0(1.99e+01)
+89:0(9.00e+00)
+90:0(3.91e+01)
+91:0(7.00e+00)
+92:0(1.20e+01)
+93:0(4.00e+00)
+94:0(4.00e+00)
+95:0(1.60e+01)
+96:0(7.00e+00)
+97:0(5.00e+00)
+98:0(8.00e+00)
+99:0(4.00e+00)
+100:0(5.00e+00)
+101:0(4.70e+01)
+102:0(2.00e+01)
+103:0(1.80e+01)
+104:0(1.25e+01)INFO: s3mixw_io.c(232): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/mixture_weights [105x1x2 array]
+INFO: s3gau_io.c(226): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/means [105x1x2 array]
+INFO: s3gau_io.c(226): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.cd_cont_initial/variances [105x1x2 array]
+
+Wed Feb  4 00:35:31 2015

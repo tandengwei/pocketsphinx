@@ -1,0 +1,74 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/local/libexec/sphinxtrain/tiestate \
+	-imoddeffn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.alltriphones.mdef \
+	-omoddeffn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.200.mdef \
+	-treedir /home/tandengwei/Desktop/pocketsphinx/my_db/trees/my_db.200 \
+	-psetfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-example	no	no
+-help		no	no
+-imoddeffn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.alltriphones.mdef
+-omoddeffn		/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.200.mdef
+-psetfn			/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions
+-treedir		/home/tandengwei/Desktop/pocketsphinx/my_db/trees/my_db.200
+
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 75 total models defined (16 base, 59 tri)
+INFO: model_def_io.c(575): 300 total states
+INFO: model_def_io.c(576): 225 total tied states
+INFO: model_def_io.c(577): 48 total tied CI states
+INFO: model_def_io.c(578): 16 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(92): Reading: /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions
+INFO: main.c(122): H-0: offset 48
+INFO: main.c(122): H-1: offset 49
+INFO: main.c(122): H-2: offset 50
+INFO: main.c(122): IAN-0: offset 51
+INFO: main.c(122): IAN-1: offset 52
+INFO: main.c(122): IAN-2: offset 53
+INFO: main.c(122): IB-0: offset 54
+INFO: main.c(122): IB-1: offset 55
+INFO: main.c(122): IB-2: offset 56
+INFO: main.c(122): IN-0: offset 57
+INFO: main.c(122): IN-1: offset 58
+INFO: main.c(122): IN-2: offset 59
+INFO: main.c(122): ING-0: offset 60
+INFO: main.c(122): ING-1: offset 61
+INFO: main.c(122): ING-2: offset 62
+INFO: main.c(122): J-0: offset 63
+INFO: main.c(122): J-1: offset 64
+INFO: main.c(122): J-2: offset 65
+INFO: main.c(122): OU-0: offset 66
+INFO: main.c(122): OU-1: offset 68
+INFO: main.c(122): OU-2: offset 70
+INFO: main.c(122): Q-0: offset 72
+INFO: main.c(122): Q-1: offset 73
+INFO: main.c(122): Q-2: offset 74
+INFO: main.c(122): T-0: offset 75
+INFO: main.c(122): T-1: offset 77
+INFO: main.c(122): T-2: offset 79
+INFO: main.c(122): UAN-0: offset 81
+INFO: main.c(122): UAN-1: offset 82
+INFO: main.c(122): UAN-2: offset 83
+INFO: main.c(122): UI-0: offset 84
+INFO: main.c(122): UI-1: offset 85
+INFO: main.c(122): UI-2: offset 86
+INFO: main.c(122): UO-0: offset 87
+INFO: main.c(122): UO-1: offset 88
+INFO: main.c(122): UO-2: offset 89
+INFO: main.c(122): Y-0: offset 90
+INFO: main.c(122): Y-1: offset 91
+INFO: main.c(122): Y-2: offset 92
+INFO: main.c(122): Z-0: offset 93
+INFO: main.c(122): Z-1: offset 94
+INFO: main.c(122): Z-2: offset 95
+INFO: main.c(122): ZH-0: offset 96
+INFO: main.c(122): ZH-1: offset 99
+INFO: main.c(122): ZH-2: offset 102
+INFO: main.c(144): n_seno= 105
+!!!!!!!!Allocated 53 lines
+Wed Feb  4 00:35:29 2015

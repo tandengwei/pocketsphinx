@@ -1,0 +1,51 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/local/libexec/sphinxtrain/make_quests \
+	-moddeffn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.ci.mdef \
+	-meanfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means \
+	-varfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances \
+	-fullvar no \
+	-mixwfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights \
+	-npermute 12 \
+	-niter 1 \
+	-qstperstt 20 \
+	-questfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions \
+	-type .cont. 
+
+Current configuration:
+[NAME]		[DEFLT]			[VALUE]
+-example	no			no
+-fullvar	no			no
+-help		no			no
+-meanfn					/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means
+-mixwfn					/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights
+-moddeffn				/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.ci.mdef
+-niter		0			1
+-npermute	6			12
+-qstperstt	8			20
+-questfn				/home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions
+-tempfn		/tmp/TEMP.QUESTS	/tmp/TEMP.QUESTS
+-type					.cont.
+-varfloor	1.0e-08			1.000000e-08
+-varfn					/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances
+
+INFO: main.c(792): Reading: /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 16 total models defined (16 base, 0 tri)
+INFO: model_def_io.c(575): 64 total states
+INFO: model_def_io.c(576): 48 total tied states
+INFO: model_def_io.c(577): 48 total tied CI states
+INFO: model_def_io.c(578): 16 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(811): Reading: /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights
+INFO: s3mixw_io.c(116): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights [48x1x1 array]
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means [48x1x1 array]
+INFO: s3gau_io.c(166): Read /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances [48x1x1 array]
+INFO: main.c(1109): Done building questions using state 0
+INFO: main.c(1110):  15 questions from state 0
+INFO: main.c(1109): Done building questions using state 1
+INFO: main.c(1110):  16 questions from state 1
+INFO: main.c(1109): Done building questions using state 2
+INFO: main.c(1110):  17 questions from state 2
+INFO: main.c(1115): Stored questions in /home/tandengwei/Desktop/pocketsphinx/my_db/model_architecture/my_db.tree_questions
+Wed Feb  4 00:35:26 2015

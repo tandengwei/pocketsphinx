@@ -1,0 +1,46 @@
+INFO: cmd_ln.c(691): Parsing command line:
+/usr/local/libexec/sphinxtrain/norm \
+	-accumdir /home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1 \
+	-mixwfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights \
+	-tmatfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/transition_matrices \
+	-meanfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means \
+	-varfn /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances \
+	-fullvar no 
+
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means
+-mixwfn			/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/transition_matrices
+-varfn			/home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances
+
+INFO: main.c(206): Reading and accumulating counts from /home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1
+INFO: s3mixw_io.c(116): Read /home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1/mixw_counts [48x1x1 array]
+INFO: s3tmat_io.c(115): Read /home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1/tmat_counts [16x3x4 array]
+INFO: s3gau_io.c(379): Read /home/tandengwei/Desktop/pocketsphinx/my_db/bwaccumdir/my_db_buff_1/gauden_counts with means with vars (2pass) [48x1x1 vector arrays]
+INFO: main.c(320): -2passvar yes
+INFO: main.c(389): Normalizing mean for n_mgau= 48, n_stream= 1, n_density= 1
+INFO: main.c(413): Normalizing var
+INFO: s3mixw_io.c(232): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/mixture_weights [48x1x1 array]
+INFO: s3tmat_io.c(174): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/transition_matrices [16x3x4 array]
+INFO: s3gau_io.c(226): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/means [48x1x1 array]
+INFO: s3gau_io.c(226): Wrote /home/tandengwei/Desktop/pocketsphinx/my_db/model_parameters/my_db.ci_cont/variances [48x1x1 array]
+Wed Feb  4 00:35:25 2015
+Current Overall Likelihood Per Frame = 25.1224778607397
+Convergence ratio = 0.0413439833304139
+Likelihoods have converged! Baum Welch training completed!
+******************************TRAINING COMPLETE*************************
+Wed Feb  4 00:35:25 2015
